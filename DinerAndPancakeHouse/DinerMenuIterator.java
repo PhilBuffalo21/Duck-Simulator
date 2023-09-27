@@ -2,7 +2,7 @@ package DinerAndPancakeHouse;
 
 import java.util.Iterator;
 
-public class DinerMenuIterator implements Iterator {
+public class DinerMenuIterator implements Iterator<MenuItem> {
     MenuItem[] items;
     int index = 0;
 

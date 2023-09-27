@@ -3,7 +3,7 @@ package DinerAndPancakeHouse;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class PancakeHouseIterator implements Iterator {
+public class PancakeHouseIterator implements Iterator<MenuItem> {
     ArrayList<MenuItem> items;
     int position = 0;
 
@@ -21,8 +21,8 @@ public class PancakeHouseIterator implements Iterator {
     }
 
     @Override
-    public Object next() {
-        Object i = items.get(position);
+    public MenuItem next() {
+        MenuItem i = items.get(position);
         position += 1;
         return i;
     }
