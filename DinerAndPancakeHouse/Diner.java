@@ -3,10 +3,10 @@ package DinerAndPancakeHouse;
 import java.util.Iterator;
 
 public class Diner implements Menu {
-    String[] Menu;
+    MenuItem[] Menu;
 
     @Override
-    public Iterator createIterator() {
+    public Iterator<MenuItem> createIterator() {
         return new DinerMenuIterator(Menu);
     }
 

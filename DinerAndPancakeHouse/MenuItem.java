@@ -1,7 +1,5 @@
 package DinerAndPancakeHouse;
 
-import java.util.Iterator;
-
 public class MenuItem {
     String name;
     Double price;
