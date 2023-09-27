@@ -1,3 +1,10 @@
 # Duck-Simulator
-Duck 
-Strategy Pattern showcase. 
+
+Duck
+
+- Strategy Pattern showcase.
+
+WeatherAPP
+
+- Observer Pattern showcase.
+
