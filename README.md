@@ -14,4 +14,4 @@ Adapter
 
 DinerAndPancakeHouse
 
-- Iterator Pattern showcase.
+- Iterator Pattern, Comoposite Pattern, and Composite Iterator showcase.
