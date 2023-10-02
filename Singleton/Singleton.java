@@ -1,7 +1,7 @@
 package Singleton;
 
 public class Singleton {
-    static Singleton instance;
+    private static Singleton instance;
 
     private Singleton() {
 
