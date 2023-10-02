@@ -12,3 +12,8 @@ Here's a simple breakdown:
 - **Whole**: This represents a grouping or a composition of parts. It can also contain other wholes, leading to a nested structure
 
 **Basically, the pattern is made with an interface and TWO types of child concrete classes; `branch` and `leaf`.Where a `branch` has a data structure to contain a `leaf` or its own kind `branch` (imagine ArrayList of the inferface that contain both types). And `leaf` is just a standalone value.**
+
+**Example of treating composite and individual is increment() and TreeOut()**
+
+increment() in Leaf -> Increments its `val` variable.
+increment() in Branch -> Goes through all Tree concrete class instances and call their increment(). Hence, if the instance is `leaf`, it increment() will increment its `val` variable. Otherwise, (well there is only one other case, `Branch`), it will call that `Branch` increment(), and go through all that `Branch`'s children. And process repeats.
